@@ -160,7 +160,7 @@ leafletOutput('map1',height=600,width="100%")
 Column {data-width=250}
 -----------------------------------------------------------------------
 
-###Click on a point on the map to see the property information below.
+### Click on a point on the map to see the property information below.
 ```{r}
 
 #Get the parcel ID from the clicked shape as an object, and then display textbox
@@ -349,7 +349,7 @@ leafletOutput('map2',height=600,width="100%")
 Column {data-width=250}
 -----------------------------------------------------------------------
 
-###Click on a point on the map to see the property information below.
+### Click on a point on the map to see the property information below.
 ```{r}
 
 #Get the parcel ID from the clicked shape as an object, and then display textbox
