@@ -108,7 +108,7 @@ radioButtons("bmap1", "Choose the base map",
 downloadButton('downloadData','Download Result Set')
 
 downloadHandler(filename = function() {
-     paste("surveydata_commerce_",Sys.Date(),".csv",sep="")
+     paste("surveydata_hartwell_",Sys.Date(),".csv",sep="")
    },
      content = function(file) {
      write.csv(parcel_points1, file, row.names = FALSE)
@@ -296,7 +296,7 @@ conditionalPanel(
   HTML("<br>Download properties with this issue<br>")
   downloadButton('downloadData','Download Result Set')
   downloadHandler(filename = function() {
-     paste("surveydata_commerce_issuemap_",Sys.Date(),".csv",sep="")
+     paste("surveydata_hartwell_issuemap_",Sys.Date(),".csv",sep="")
     },
      content = function(file) {
      write.csv(filteredData(), file, row.names = FALSE)
