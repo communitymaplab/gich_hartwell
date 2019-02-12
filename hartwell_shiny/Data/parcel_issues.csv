@@ -1,0 +1,28 @@
+var,total,issue_count,issue_pct,var_alias,var_cat,color
+stairs_repaint,88,30,34.09,Stairs: Repainting needed,Stairs,#e6ab02
+windows_doors.window_repaint,88,21,23.86,Windows/doors: Repainting needed,Windows/doors,#377eb8
+exterior.ext_repaint,88,20,22.73,Exterior: Repainting needed,Exterior,#1b9e77
+lot_assess.lot_missingcover,88,16,18.18,Lot: Missing ground cover,Lot,#984ea3
+found_cracked,88,14,15.91,Foundation: Cracked,Foundation,#ff7f00
+exterior.ext_cracked,88,13,14.77,Exterior: Cracked/minor dry rot,Exterior,#1b9e77
+lot_assess.lot_weeds,88,13,14.77,Lot: Lawn overgrown/weeds,Lot,#984ea3
+roofing.roof_gutters,88,13,14.77,Roof: Gutters need repair,Roof,#4daf4a
+roofing.roof_shingles,88,11,12.5,Roof: Cracked/peeling shingles,Roof,#4daf4a
+stairs_cracked,88,9,10.23,Stairs: Cracked/minor repairs needed,Stairs,#e6ab02
+windows_doors.window_crackedpanes,88,9,10.23,Windows/doors: Cracked panes,Windows/doors,#377eb8
+found_partreplace,88,6,6.82,Foundation: Partial replacement,Foundation,#ff7f00
+lot_assess.lot_junk,88,5,5.68,Lot: Major cleanup/junk in yard,Lot,#984ea3
+lot_assess.lot_trees,88,5,5.68,Lot: Dead/hazardous trees,Lot,#984ea3
+exterior.ext_needs_replace,88,4,4.55,Exterior: Needs replacement,Exterior,#1b9e77
+lot_assess.lot_inop_vehicle,88,3,3.41,Lot: Inoperable vehicle in yard,Lot,#984ea3
+lot_assess.lot_porchstorage,88,3,3.41,Lot: Porch used as storage,Lot,#984ea3
+roofing.roof_reroof_part,88,3,3.41,Roof: Partial re-roofing needed,Roof,#4daf4a
+windows_doors.window_minreplace,88,3,3.41,Windows/doors: Replace 1-3 windows,Windows/doors,#377eb8
+found_compreplace,88,2,2.27,Foundation: Complete replacement,Foundation,#ff7f00
+roofing.roof_newstructure,88,1,1.14,Roof: New roofing structure needed,Roof,#4daf4a
+windows_doors.window_majreplace,88,1,1.14,Windows/doors: Replace >3 windows,Windows/doors,#377eb8
+exterior.ext_chimney,88,0,0,Exterior: Chimney needs repair,Exterior,#1b9e77
+exterior.ext_nosiding,88,0,0,Exterior: Missing/no siding,Exterior,#1b9e77
+lot_assess.lot_graffiti,88,0,0,Lot: Graffiti on house/property,Lot,#984ea3
+roofing.roof_reroof_tot,88,0,0,Roof: Total re-roofing needed,Roof,#4daf4a
+stairs_majorrepair,88,0,0,Stairs: Major repair needed,Stairs,#e6ab02

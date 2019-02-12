@@ -1,0 +1,12 @@
+name: hartwell_housing
+title: hartwell_housing
+username:
+account: comapuga
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 710444
+bundleId: 1871892
+url: https://comapuga.shinyapps.io/hartwell_housing/
+when: 1549987623.61182
+asMultiple: FALSE
+asStatic: FALSE
