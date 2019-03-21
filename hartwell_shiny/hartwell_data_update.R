@@ -183,7 +183,9 @@ parcel_points_data1<-parcel_points_data %>%
          str93=if_else(photo4!="blank",paste("<br><a href='",
                                              photo4,"' target='_blank'>Picture 4</a>"),"")
          ) %>%
-  unite(col="textbox",str01:str93,sep="",remove=TRUE)
+  unite(col="textbox1",str01:str05,sep="",remove=TRUE)%>%
+  unite(col="textbox2",str06:str14,sep="",remove=TRUE)%>%
+  unite(col="textbox3",str90:str93,sep="",remove=TRUE)
 
 #####################
 # ID duplicates and add jitter
