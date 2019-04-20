@@ -377,23 +377,54 @@ filteredData <- reactive({
 leafletOutput('map2',height=600,width="100%")
 ```
 
-Column {data-width=250}
+Column {.tabset data-width=250}
 -----------------------------------------------------------------------
 
-### Click on a point on the map to see the property information below.
+### General 
 ```{r}
 
 #Get the parcel ID from the clicked shape as an object, and then display textbox
 observe({
   validate(need(input$map2_shape_click, FALSE))
-
-  prop_id1<-parcel_points %>% filter(X_id==input$map2_shape_click$id)
+  prop_id<-parcel_points %>% filter(X_id==input$map2_shape_click$id)
   output$text2 <- renderUI({
-    HTML(prop_id1$textbox)
+    HTML(prop_id$textbox1)
   })
- })
-# 
+})
+
 htmlOutput("text2",width=200)
+```
+
+### Structural/Lot Conditions  
+
+```{r}
+
+#Get the parcel ID from the clicked shape as an object, and then display textbox
+observe({
+  validate(need(input$map2_shape_click, FALSE))
+  prop_id<-parcel_points %>% filter(X_id==input$map2_shape_click$id)
+  output$text2a <- renderUI({
+    HTML(prop_id$textbox2)
+  })
+})
+
+htmlOutput("text2a",width=200)
+```
+
+### Photos 
+
+```{r}
+
+#Get the parcel ID from the clicked shape as an object, and then display textbox
+observe({
+  validate(need(input$map2_shape_click, FALSE))
+  prop_id<-parcel_points %>% filter(X_id==input$map2_shape_click$id)
+  output$text2b <- renderUI({
+    HTML(prop_id$textbox3)
+  })
+})
+
+htmlOutput("text2b",width=200)
 ```
 
 About this tool
